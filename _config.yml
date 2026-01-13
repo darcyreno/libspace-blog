@@ -1,0 +1,42 @@
+title: LibSpace Blog
+description: Tips, tutorials, and updates for getting the most out of LibSpace
+url: "https://blog.libspace.io"
+baseurl: ""
+
+# Author
+author:
+  name: LibSpace
+  email: support@libspace.io
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Feed settings
+feed:
+  posts_limit: 20
+
+# Permalink structure
+permalink: /:title/
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
+
+# Collections
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "LibSpace Team"

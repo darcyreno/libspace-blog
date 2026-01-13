@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
+
+  {% feed_meta %}
+  {% seo %}
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="https://libspace.io/favicon.ico">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="{{ '/' | relative_url }}" class="site-title">
+        <img src="https://libspace.io/logo.png" alt="LibSpace" class="logo" onerror="this.style.display='none'">
+        {{ site.title }}
+      </a>
+      <nav>
+        <a href="https://libspace.io">Back to LibSpace</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ 'now' | date: "%Y" }} LibSpace. All rights reserved.</p>
+      <p>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a> |
+        <a href="https://libspace.io">libspace.io</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
