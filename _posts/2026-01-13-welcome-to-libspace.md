@@ -1,8 +1,8 @@
 ---
 title: "Welcome to LibSpace"
-date: 2026-01-13
+date: 2026-01-01
 author: "Darcy"
-image: "/assets/images/welcome-cover.webp"
+image: "https://blog.libspace.io/assets/images/welcome-cover.webp"
 excerpt: "LibSpace helps you save articles, newsletters, and documents from around the web and read them on your e-reader, phone, or anywhere - distraction-free."
 ---
 
@@ -30,7 +30,7 @@ The browser extension saves web pages to your library as an EPUB and HTML. This 
 
 ### 2. Mobile App
 
-Our [iOS](https://apps.apple.com/app/libspace/id6740659382) and Android app is a full-featured EPUB reader. Read your saved articles, highlight passages, and pick up exactly where you left off.
+Our [iOS](https://apps.apple.com/us/app/libspace-reader/id6757412132) and Android app is a full-featured EPUB reader. Read your saved articles, highlight passages, and pick up exactly where you left off.
 
 Your reading progress and highlights sync across all your devices. Start reading on your phone during lunch, finish on your e-reader before bed.
 
