@@ -18,7 +18,9 @@ If you're tired of reading on glowing screens, you're in the right place.
 
 The fastest way to save anything you find on the web.
 
-**Chrome**: Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/libspace-read-it-later/kfaldkohghffdfkghdfchmkjkhjbojoe), pin it to your toolbar, and click the LibSpace icon on any article you want to save.
+**Chrome**: Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/libspace-connector/kfaldkohghffdfkghdfchmkjkhjbojoe), pin it to your toolbar, and click the LibSpace icon on any article you want to save.
+
+**Firefox**: Get the [Firefox extension](https://addons.mozilla.org/en-CA/firefox/addon/libspace-connector/) from Mozilla Add-ons.
 
 **Safari**: Get the Safari extension from the [Mac App Store](https://apps.apple.com/ca/app/libspace-read-it-later/id6756924072).
 
